@@ -6,5 +6,6 @@ public class Main {
         System.out.println("Ingresa tu nombre:");
         String name = input.nextLine();
             System.out.println("Hola!, " + name);
+
     }
 }
