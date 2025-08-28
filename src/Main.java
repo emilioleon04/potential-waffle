@@ -5,6 +5,9 @@ public class Main {
         Scanner input = new Scanner(System.in);
         System.out.println("Ingresa tu nombre:");
         String name = input.nextLine();
-        System.out.println("Hola!, " + name);
+
+        for (int i = 0; i < 3; i++) {
+            System.out.println("Hola!, " + name);
+        }
     }
 }
